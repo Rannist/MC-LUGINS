@@ -1,0 +1,12 @@
+name: StickFreeze
+version: '1.0-SNAPSHOT'
+main: rannist.stickfreeze.StickFreeze
+api-version: '1.19'
+
+commands:
+  weapon:
+    description: '获得一个炫酷的武器'
+    usage: '/weapon'
+  lock:
+    description: '锁定玩家'
+    usage: '/lock <玩家名>'
